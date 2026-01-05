@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Splash Theme (Android 12+) -->
+    <style name="Theme.WebCompiler.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Splash background color -->
+        <item name="android:windowSplashScreenBackground">#2563EB</item>
+
+        <!-- Splash icon -->
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Animation duration -->
+        <item name="android:windowSplashScreenAnimationDuration">500</item>
+
+        <!-- Switch to main theme after splash -->
+        <item name="postSplashScreenTheme">@style/Theme.WebCompiler</item>
+    </style>
+
+    <!-- Main App Theme -->
+    <style name="Theme.WebCompiler" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#2563EB</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+
+</resources>

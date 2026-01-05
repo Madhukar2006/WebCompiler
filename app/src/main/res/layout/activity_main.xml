@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F5F9">
+
+    <!-- Status bar spacer -->
+    <View
+        android:id="@+id/statusBarSpacer"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- 🔝 Top Bar -->
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="14dp"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        app:layout_constraintTop_toBottomOf="@id/statusBarSpacer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Web Compiler"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#0F172A"/>
+
+        <!-- Zoom Out -->
+        <ImageButton
+            android:id="@+id/btnMinus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_zoom_out"
+            android:background="@drawable/zoom_btn_bg"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:contentDescription="Zoom out"/>
+
+        <!-- Zoom In -->
+        <ImageButton
+            android:id="@+id/btnPlus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_zoom_in"
+            android:background="@drawable/zoom_btn_bg"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:contentDescription="Zoom in"/>
+    </LinearLayout>
+
+    <!-- 🧠 Editor Area -->
+    <LinearLayout
+        android:id="@+id/editorContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="#020617"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintBottom_toTopOf="@id/bottomTabs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Line Numbers -->
+        <TextView
+            android:id="@+id/lineNumbers"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="top|end"
+            android:textColor="#64748B"
+            android:textSize="12sp"
+            android:background="#020617"
+            android:text="1"/>
+
+        <!-- Code Editor -->
+        <EditText
+            android:id="@+id/editor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#020617"
+            android:textColor="#E5E7EB"
+            android:textColorHint="#94A3B8"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:gravity="top"
+            android:padding="14dp"
+            android:scrollbars="vertical"
+            android:overScrollMode="ifContentScrolls"
+            android:inputType="textMultiLine|textNoSuggestions"/>
+    </LinearLayout>
+
+    <!-- 🌐 Preview -->
+    <WebView
+        android:id="@+id/preview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintBottom_toTopOf="@id/bottomTabs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- 🔽 Bottom Tabs -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/bottomTabs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:tabIndicatorColor="#2563EB"
+        app:tabSelectedTextColor="#2563EB"
+        app:tabTextColor="#64748B"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabRippleColor="@android:color/transparent"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- ▶ Floating RUN -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/runBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Run Code"
+        android:src="@android:drawable/ic_media_play"
+        app:backgroundTint="#2563EB"
+        app:tint="#FFFFFF"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
