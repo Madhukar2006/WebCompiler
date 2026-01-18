@@ -12,7 +12,7 @@ It provides:
 - Live preview using WebView
 - Syntax-highlighted code editor   
 - Smooth tab navigation
-- Floating Run button
+- Floating Run button    
 - Professional UI with animations
 
 ---
