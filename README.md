@@ -17,7 +17,7 @@ It provides:
 
 ---
 
-## ✨ Features
+## ✨ Features  
 
 ✅ HTML, CSS & JavaScript editor  
 ✅ Live Preview inside the app  
