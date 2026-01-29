@@ -109,6 +109,8 @@ If you like this project:
 - 🐞 Report issues  
 - 💡 Suggest features  
 
+
 ---
+
 
 **Built with passion for learning and clean UI ❤️**
