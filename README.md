@@ -13,7 +13,7 @@ It provides:
 - Syntax-highlighted code editor     
 - Smooth tab navigation
 - Floating Run button    
-- Professional UI with animations
+- Professional UI with animations   
 
 ---
 
