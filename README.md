@@ -10,7 +10,7 @@ A modern **Web Compiler Android app** that lets you write, edit, and preview **H
 
 It provides:
 - Live preview using WebView
-- Syntax-highlighted code editor     
+- Syntax-highlighted code editor      
 - Smooth tab navigation
 - Floating Run button    
 - Professional UI with animations   
