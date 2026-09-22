@@ -1,116 +1,136 @@
-# 🚀 Web Compiler – Android App
+# 🚀 Web Compiler
 
-A modern **Web Compiler Android app** that lets you write, edit, and preview **HTML, CSS, and JavaScript** code directly on your mobile device with a clean UI and smooth experience.
+<p align="center">
+  <strong>A mobile IDE for writing, editing, and previewing HTML, CSS & JavaScript.</strong>
+</p>
 
----
- 
-## 📱 About the App
+<p align="center">
+  Build and experiment with web code directly from your Android device.
+</p>
 
-**Web Compiler** is built for students, beginners, and developers who want a lightweight mobile editor to experiment with web technologies anytime, anywhere.
+<p align="center">
+  <a href="https://github.com/Madhukar2006/WebCompiler">
+    <img src="https://img.shields.io/badge/💻_Source_Code-GitHub-181717?style=for-the-badge&logo=github" alt="Source Code">
+  </a>
+</p>
 
-It provides:
-- Live preview using WebView
-- Syntax-highlighted code editor      
-- Smooth tab navigation
-- Floating Run button    
-- Professional UI with animations   
-
----
-
-## ✨ Features  
-
-✅ HTML, CSS & JavaScript editor  
-✅ Live Preview inside the app  
-✅ Floating **RUN ▶️** button  
-✅ Bottom tab navigation (HTML / CSS / JS / Preview)  
-✅ Syntax highlighting (custom highlighter)  
-✅ Line numbers support  
-✅ Font size zoom (+ / −)  
-✅ Slide left/right animations  
-✅ Splash screen with branding  
-✅ Dark-themed editor UI  
-✅ Offline support (no internet required for preview)
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Madhukar2006/WebCompiler?style=flat-square" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/Madhukar2006/WebCompiler?style=flat-square" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/last-commit/Madhukar2006/WebCompiler?style=flat-square" alt="Last Commit">
+  <img src="https://img.shields.io/github/repo-size/Madhukar2006/WebCompiler?style=flat-square" alt="Repository Size">
+</p>
 
 ---
 
-## 🛠 Tech Stack
+## 📱 About
 
-- **Language:** Kotlin  
-- **UI:** XML (Material Design)  
-- **Editor:** EditText + SpannableString  
-- **Preview Engine:** Android WebView  
-- **Architecture:** Single Activity  
-- **Storage:** SharedPreferences  
-- **Build System:** Gradle  
+**Web Compiler** is an Android application that brings a lightweight web-development environment to mobile devices.
 
----
+The app allows users to write HTML, CSS, and JavaScript, then preview their code directly inside the application.
 
-## 🧠 Skills Used
+It is designed for developers, students, and learners who want to experiment with web development without needing a desktop computer.
 
-- Android App Development  
-- Kotlin Programming  
-- UI/UX Design  
-- Material Components  
-- WebView Integration  
-- HTML / CSS / JavaScript  
-- Animations & Transitions  
-- App Theming & Splash Screen  
-- Debugging & Optimization  
-- Git & GitHub  
+### 💡 The idea
+
+> **A small web-development environment that fits in your pocket.**
+
+Write code → Run it → Preview the result.
+
+All from Android.
 
 ---
-## 📷 Poster
 
-> <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0f62c5a7-8610-42b9-85ee-df61eaf99754" />
+## ✨ Features
+
+### 💻 Web Code Editor
+
+Write and edit:
+
+- 🌐 HTML
+- 🎨 CSS
+- ⚡ JavaScript
+
+### 👀 Live Preview
+
+Run your web code and instantly view the resulting webpage inside the application.
+
+### 📱 Mobile-First Experience
+
+The interface is designed specifically for Android screens, making coding and previewing possible on mobile devices.
+
+### 🧩 Multi-Language Workflow
+
+Work with HTML, CSS, and JavaScript in a single application.
+
+### ⚡ Quick Run
+
+Execute your code directly from the editor and switch between coding and previewing without leaving the app.
+
+### 🎨 Developer-Friendly UI
+
+The application provides a simple interface focused on:
+
+- Code editing
+- Previewing
+- Navigation
+- Quick actions
+
+### 🌐 Offline-Friendly Development
+
+Basic HTML, CSS, and JavaScript experimentation can be performed locally without requiring a remote development environment.
+
+---
 
 ## 📸 Screenshots
 
-> <img width="974" height="1920" alt="image" src="https://github.com/user-attachments/assets/17450131-bb0b-48ca-a55d-64c08f88cea3" />
-> <img width="975" height="1920" alt="image" src="https://github.com/user-attachments/assets/c03660dc-1af0-40dc-82a5-e62ab70064a8" />
+### 💻 HTML Editor
 
+<p align="center">
+  <img src="./screenshots/html-editor.png" width="300" alt="HTML Editor">
+</p>
 
----
+### 🌐 Live Preview
 
-## 🔗 GitHub Repository
+<p align="center">
+  <img src="./screenshots/live-preview.png" width="300" alt="Live Preview">
+</p>
 
-👉 **Project Link:**  
-https://github.com/Madhukar2006/WebCompiler
+### 👤 Example Webpage
 
----
+<p align="center">
+  <img src="./screenshots/example-page.png" width="300" alt="Example Webpage">
+</p>
 
-## 🚧 Project Status
-
-🟢 Actively developing  
-More features planned:
-- Auto-save indicator
-- Code export/share
-- Themes (Dark / Light)
-- Syntax autocomplete
-- File management
+> Place your screenshots inside a `screenshots` folder using the filenames above.
 
 ---
 
-## 👨‍💻 Developer
+## 🎬 How It Works
 
-**Madhukar Pal**  
-🎓 B.Tech CSE Student  
-💻 Web & Android Developer  
-
-- GitHub: https://github.com/Madhukar2006  
-- LinkedIn: *(add your LinkedIn link here)*  
-
----
-
-## ⭐ Support
-
-If you like this project:
-- ⭐ Star the repository  
-- 🍴 Fork it  
-- 🐞 Report issues  
-- 💡 Suggest features  
-
-
----
-
-
-**Built with passion for learning and clean UI ❤️**
+```text
+             ┌────────────────────┐
+             │    Open WebCompiler│
+             └──────────┬─────────┘
+                        │
+                        ▼
+              ┌─────────────────┐
+              │   Write HTML    │
+              │      Code       │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │   Add CSS &     │
+              │   JavaScript    │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │    Run Code     │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │   Live Preview  │
+              └─────────────────┘
