@@ -103,7 +103,7 @@ Basic HTML, CSS, and JavaScript experimentation can be performed locally without
 </p>
 
 > Place your screenshots inside a `screenshots` folder using the filenames above.
-
+ 
 ---
 
 ## 🎬 How It Works
