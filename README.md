@@ -4,15 +4,18 @@
   <strong>A mobile IDE for writing, editing, and previewing HTML, CSS & JavaScript.</strong>
 </p>
 
+
 <p align="center">
   Build and experiment with web code directly from your Android device.
 </p>
+
 
 <p align="center">
   <a href="https://github.com/Madhukar2006/WebCompiler">
     <img src="https://img.shields.io/badge/💻_Source_Code-GitHub-181717?style=for-the-badge&logo=github" alt="Source Code">
   </a>
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/Madhukar2006/WebCompiler?style=flat-square" alt="GitHub Stars">
@@ -21,7 +24,9 @@
   <img src="https://img.shields.io/github/repo-size/Madhukar2006/WebCompiler?style=flat-square" alt="Repository Size">
 </p>
   
+
 ---
+
 
 ## 📱 About
 
